@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>quiz app 3 </title>
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+</head>
+<body>
+<!-- =  b  n   *   () B N -->
+
+  <main class="main">
+    <header class="header">
+      <a href="#" class="logo">Quiz.</a>
+
+      <div class="toggle">
+        <a href="#"><ion-icon name="menu-outline"></ion-icon></a>
+      </div>
+
+      <nav class="sidebar">
+        <a href="#" class="hideSide-bar"><ion-icon name="close-outline"></ion-icon></a>
+        <a href="#" class="active">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+      </nav>
+
+      <nav class="navbar">
+        <a href="#" class="active">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+      </nav>
+    </header>
+    <div class="container">
+
+      <section class="quiz-section">
+        <div class="quiz-box">
+          <h1>The Quiz</h1>
+          <div class="quiz-header">
+            <span>Quiz Website tutorials</span>
+            <span class="header-score">Score: 0 / 5</span>
+          </div>
+
+          <h2 class="question-text"></h2>
+          <div class="option-list">
+
+            <!--
+
+            <div class="option">
+              <span>B. Hyper Text Multiple Language</span>
+            </div>
+
+            <div class="option">
+              <span>C. Hyper Text Markup Language</span>
+            </div>
+
+            <div class="option">
+              <span>D. Home Text Multi Language</span>
+            </div> -->
+          </div>
+
+          <div class="quiz-footer">
+          <span class="question-total">1 of 5 Questions</span>
+          <button class="next-btn">Next</button>
+          </div>
+        </div>
+
+
+        <div class="result-box">
+          <h2>Quiz Result!</h2>
+          <div class="percentage-container">
+            <div class="circular-progress">
+              <span class="progress-value">0%</span>
+            </div>
+
+            <span class="score-text">Your score 0 out of 5</span>
+          </div>
+
+          <div class="buttons">
+            <button class="tryAgain-btn">Try Again</button>
+            <button class="goHome-btn">Go to home</button>
+          </div>
+        </div>
+      </section>
+      <section class="home">
+        <div class="home-content">
+          <h1>A Coding Quiz</h1>
+          <p>This quiz contains the basics of Programming </p>
+          <button class="start-btn"> Start Quiz</button>
+        </div>
+      </section>
+    </div>
+    
+  </main>
+
+  <div class="popup-info">
+    <h2>Quiz Guide</h2>
+    <span class="info">1. Please read each questions carefully before selecting your answer.</span>
+    <span class="info">2. Choose the best answer for each question.</span>
+    <span class="info">3. Make sure to answer all questions before sumitting your quiz.</span>
+    <span class="info">4. Avoid using external resources while taking your quiz.</span>
+    <span class="info">5. Ensure you pick an answer before clicking the next button.</span>
+
+    <div class="btn-group">
+      <button class="info-btn exit-btn">Exit Quiz</button>
+      <a href="#" class="info-btn continue-btn">Continue</a>
+    </div>
+  </div>
+
+
+  <script src="questions.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
